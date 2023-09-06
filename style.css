@@ -1,0 +1,395 @@
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: black;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 740px;
+    background-color: black;
+    background-image: url(net1.jpg);
+
+    
+
+
+}
+.logo{
+float: left;
+}
+.netflix-image{
+    height: 120px;
+    margin-left: 160px;
+    margin-top: -15px;
+}
+.button{
+    float: left;
+
+}
+.signup-btn{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 19px;
+    margin-right: 100px;
+    cursor: pointer;
+    
+   
+}
+.signup-btn:hover{
+    color: red;
+    background-color: white;
+}
+#lng{
+    color:white;
+    border-color: gray;
+    background:transparent;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-left: 36px;
+   
+    
+    
+}
+
+
+.header-content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 100px;
+    transform: translate(-50%,-50%);
+
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-emai-get{
+    margin-top: 10px;
+
+}
+.email-signup{
+    padding: 12px 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    font-size: 15px;
+    width: 376px;
+}
+
+.get{
+    background-color: red;
+    border-style: none;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(68, 70, 68);
+}
+.features{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.row{
+    float:left ;
+    width: 50%;
+
+}
+.text-col{
+    color: white;
+    margin-top: 200px ;
+    margin-left: 160px;
+   
+}
+.img-tv{
+    float: left;
+}
+.Tv-img{
+   
+    width: 550px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.text-col h2{
+font-weight: 1000;
+font-size: 55px;
+
+}
+.text-col p{
+    font-size: 26px;
+    font-weight: 300;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: rgb(68, 70, 68);
+}
+.features-2{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.text-col-2{
+    color: white;
+    margin-top: 200px;
+    margin-left: 160px;
+}
+.img-mob{
+    float: left;
+}
+.mob-img{
+    width: 550px;
+    height: 400px;
+    margin-left:  203px;
+    margin-top: -90px;
+    text-align: center;
+}
+.text-col-2 h3{
+    font-weight: 1000;
+    font-size: 45px;
+    margin-left: 200px;
+}
+.text-col-2 p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.features-3{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    border-bottom: solid rgb(68, 70, 68) 10px;
+}
+.text-col-3{
+    color: white;
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+   
+
+.tv-img-2{
+   padding-left: 71px;
+   height: 412px;
+   margin-top: 74px;
+   
+   
+}
+.text-col-3 h1{
+font-weight: 1000;
+font-size: 49px;
+margin-left: 12px;
+}
+.text-col-3 p{
+    color: white;
+    padding-top: 15px;
+    padding-left: 7px;
+    font-size: 26px;
+}
+.features-4{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    border-bottom: solid rgb(68, 70, 68) 10px;
+}
+.text-col-4{
+    color: white;
+    margin-top: 200px;
+    margin-left: 58px;
+}
+.cartn-img{
+    padding-left: 148px;
+    height: 456px;
+    margin-top: 76px;
+}
+.text-col-4 h4{
+    font-weight: 1000;
+    font-size: 49px;
+    margin-left: 12px;
+ }
+    .text-col-4 p{
+        color: white;
+        padding-top: 15px;
+        padding-left: 7px;
+        font-size: 26px;
+ }
+ .frequent{
+    
+    justify-content: space-around; 
+    font-size: 38px;
+    font-weight:bolder;
+    margin-bottom: -15px;
+    color: white;
+    padding-left: 358px;
+    margin-top: 26px;
+    padding-bottom: 28px
+   
+
+}
+.option{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+  
+}
+
+    .q-1 {
+        background-color: #2d2d2d;
+        width: 1143px;
+        padding: 36px 28px;
+        margin-bottom: 8px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        border-style: none;
+        font-size: 27px;
+        cursor: pointer;
+        transition: 0.3s;
+    
+}
+.q-1:hover{
+    background-color:#414141
+
+}
+.ready-2{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 32px;
+    color: white;
+    margin-bottom: 14px;
+}
+.email-div-2{
+    display: flex;
+     justify-content: center;
+     margin-bottom: 50px;
+}
+.faq-link{
+    display: flex;
+    padding: 21px 75px;
+    margin-left: 103px;
+    font-size: 17px;
+    
+}
+.last-sec1{
+    display: flex;
+    flex-direction: column;
+    margin-right:   180px;
+    color: azure;
+
+
+}
+.a:link{
+    color: white;
+}
+.call{
+    margin-left: 180px;
+    margin-top: 65px;
+    font-weight: 600;
+    color: #bdbdbd;
+}
+.language-1{
+    color: white;
+    background-color: #2d2d2d;
+    padding: 10px 40px ;
+    border-radius: 5px;
+    border-style: solid;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 11px;
+    margin-top: 15px;
+}
+
+
+    
+
+.final-para{
+   margin-top: 25px;
+    
+}
+
+.last-sec2{
+    display: flex;
+    flex-direction: column;
+    margin-right:   180px;
+    
+
+
+}
+.last-sec3{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 450;
+    padding-left: 113px;
+   
+
+
+}
+.mail{
+    
+    padding-right: 183px;
+    border-radius: 5px;
+    padding-left: 13px;
+    background-color: transparent;
+    margin-right: 12px;
+}
+.get {
+    background-color: red;
+    border-style: none;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}
+
+    
+
+.ac{
+    color: #bdbdbd;
+    padding-top: 25px;
+    font-size: 15px;
+}
